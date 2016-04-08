@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+ div {
+	color: #000;
+	}
+</style>
+<title>Semana Santa</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app02.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/atlixco.jpg','imagenes/cholula.jpg','imagenes/fotoooo.jpg','imagenes/foto22.jpg','imagenes/foto.jpg','imagenes/foto de cholula.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1><i>Semana Santa</i></h1>
+      </div>
+      <div data-role="main" class="ui-content">
+           <div>
+           <center>
+          <img src="imagenes/images.jpg"> </div>
+         </center>
+          </div>
+          
+<div>
+    <ul id="lista" data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Significado De Semana Santa</h2>
+    
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Domingo De Ramos</h2>
+        
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Como Se Establece La Fecha De Semana Santa</h2>
+         
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Celebracion En San Pedro Cholula</h2>
+        
+         </a>
+         </li> 
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Celebracion en Iztapalapa</h2>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Celebracion en el Vaticano</h2>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Celebracion en Jesuralem</h2>
+          </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Celebracion en Fiipinas</h2>
+          </a>
+         </li>
+       </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+   <center>
+       <img src="imagenes/persona_azul.png" width="46" height="46">
+   </center>
+   </div>
+   <div>
+      <h4>Aplicacion Dos</h4>
+      <h4>Juan Pablo Marin Frias</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Significado De Semana Santa</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <center><img src="imagenes/vati.jpg"></center>
+        <br>
+        <p>Semana Santa, conocida como semana mayor, es un período de 7 días que comienza con el Domingo de Ramos y culmina con el Domingo de Resurrección. Con la Semana Santa, el cristiano conmemora el Triduo Pascual, es decir, los momentos de la Pasión, la Muerte y la Resurrección de Jesucristo.
+        <center><img src="imagenes/semana santa.jpg"></center>
+        <br>
+        <br>
+        La Semana Santa está precedida por la Cuaresma que se refiere al tiempo de preparación donde se recuerda los 40 días de Jesucristo en el desierto. Las celebraciones centrales de la Semana Santa son: Jueves Santo, Viernes Santo, Sábado Santo y Domingo de Resurrección.</p>
+        <center><img src="imagenes/semana santa 2.jpg"></center>
+        <br>
+        <br>
+        La Semana Santa, es el tiempo para dedicarse a la oración y reflexionar en Jesucristo, en los momentos del Triduo Pascual, quien con su infinita misericordia, decide tomar el lugar del hombre y recibir el castigo para liberarlo de los pecados. Asimismo, es el tiempo ideal para el ser humano meditar sobre sus acciones y los cambios que debe realizar para acercarse más a Dios y cumplir con sus mandamientos.
+        <center><img src="imagenes/semana santa 3.jpg"</center>
+        <br>
+        <br>
+        Durante la Semana Santa, el católico cumple con diversos actos, como: procesiones, escenificación del drama de la muerte y pasión de Cristo. Los penitentes se someten a duras cargas como símbolo de su auto sacrificio y, en el día Viernes Santo, los fieles deben de guardar ayuno y abstenerse de comer carne.
+        <center><img src="imagenes/semana santa.jpg"></center>
+         <div data-role="collapsible" data-content-theme="false">
+          <h1>Foto De Semana Santa</h1>
+            <div>
+            <p>Foto Representativa del Viernes Santo</p>
+            <br>
+            </div>
+           <div>
+           <img src="imagenes/cristo.jpg" width="50%" height="50%"> </div>
+          </div>
+        </div>
+        </div>
+        <div data-role="footer" data-theme="a">
+          <h4>Aplicacion dos Semana Santa Juan Pablo Marin Frias</h4>
+        </div>
+       
+     </div>
+     </div>  
+     
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Domingo de Ramos</h1>
+   </div>
+   <div data-role="content" align="center">
+      <div>
+      <center><img src="imagenes/ramos.jpg"></center>
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>Informacion del Domigo de Ramos</h1>
+            <div>
+            <p>Esta es la informacion del Domingo de Ramos</p>
+            <br>
+            </div>
+        <h2>El Domingo de Ramos es aquel en el que los cristianos conmemoran la entrada de Jesús de Nazaret en Jerusalén, aclamado por una multitud exultante, días antes de su pasión, muerte y resurrección, según testimonian los cuatro evangelios canónicos. Dicho domingo es el pórtico espiritual de la Semana Santa. La fecha de su celebración es movible, enmarcada en el lapso de los meses de marzo o abril.</h2></div>
+      </div>
+      </div>
+        <div data-role="footer" data-theme="a">
+          <h4>Aplicacion dos, semana Santa Juan Pablo Marin Frias</h4>
+        </div>
+     </div>
+</div> 
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Como se Establece</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+    <center><img src="imagenes/como.jpg"</center>
+     <div data-role="collapsible" data-content-theme="false">
+          <h1>Informacion...</h1>
+            <div>
+            <p>Informacion de como se establece</p>
+            <br>
+            </div>
+       <h2>La Pascua es una fiesta que varía de año a año en relación con nuestros calendarios, pues está basada en el calendario Judío que se guía por la luna. El día central para calcular la Pascua y la cuaresma es el día de la Resurrección del Señor. Para saber la fecha de la cuaresma y su inicio, el miércoles de ceniza, debemos contar 40 días hacia atrás desde el domingo anterior al domingo de Resurrección (domingo de ramos o de palmas). Después del domingo de Resurrección se cuentan 40 días hasta la Ascensión (aunque la fiesta se celebra el Domingo siguiente); una semana después de la Ascensión se celebra  Pentecostés (aunque bíblicamente ocurre a los 50 días de la Resurrección).
+¿Cómo se calcula la Fecha de la Pascua de Resurección?
+
+La Iglesia Católica quiso ya desde un principio, conmemorar la muerte de Jesús el mismo día que lo relatan los evangelios. Ha sido tradición en los judíos celebrar su pascua sirviéndose del calendario lunar; por supuesto en la época de Jesús, la pascua se regía por los ciclos de la luna. Partiendo de esto, el calendario de Semana Santa, se obtiene a partir del día de la Resurrección, que es el domingo siguiente a la luna llena del mes de Nissan (el mes de los judíos) que corresponde a los días entre el 22 de marzo y el 25 de abril. Dicho de otra manarea, este día es el domingo después de la primera luna llena de primavera (la primavera, por lo general, comienza el 21 de marzo). </h2></div>
+    </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+      <h4>Aplicacion Dos, Semana Santa, Juan Pablo Marin Frias</h4>
+    </div>
+   </div>
+</div> 
+</div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Celebracion en cholula</h1>
+  </div>
+<div data-role="content" align="center">
+    <div>
+    <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/atlixco.jpg',1)"><img src="imagenes/images.jpg" width="294" height="171" id="Image12"></a>
+    </center>
+       <h2>
+Las actividades de Semana Santa en San Pedro Cholula inician con la elaboración de la alfombra que se colocará en el portal este jueves a las 22:00 horas. Asimismo, se abrirán las iglesias para la visita de las siete casas. 
+  </h2>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/cholula.jpg',1)"><img src="imagenes/images.jpg" width="294" height="171" id="Image19"></a></h2>
+       <h2>
+         Jesús de las Tres Caídas
+         Se venera en el Templo de Analco y la leyenda afirma que cuando estaba siendo tallada, el escultor no permitía ninguna presencia, salvo un ciego. Cuando estaba concluida el ciego le pidió al maestro tocar el rostro de la imagen, recuperando la vista de inmediato. El milagro la hizo de una gran popularidad y devoción.
+         
+         Recorrido
+         Encuentro de las imágenes en el atrio de la Catedral (10:30 a 11:30hrs).
+         Salida de la Catedral (12:00 hrs.)
+         Previo primer mensaje arzobispal, toma la calle 16 de septiembre hasta el Zócalo para dar vuelta al oriente por la Avenida Juan de Palafox y Mendoza, da vuelta hacia la avenida 2 norte hasta la 4 oriente, para tomar en sentido contrario, hasta la 11 norte y llegar al “Gallito” ( 11 sur y Reforma).
+         Después del segundo mensaje del Sr. Arzobispo, continúa por la calle Reforma hasta el Zócalo y por la 16 de septiembre al atrio de la Catedral, arribando alrededor de las 15:00hrs, donde se da la bendición y concesión de indulgencia plenaria. Posteriormente, las imágenes regresan a su templo.
+         
+         
+         Procesión del Viernes Santo
+         Día: Viernes 25 de marzo
+         Recorrido por las principales calles del centro histórico de cinco de las imágenes más veneradas por los fieles poblanos. Esta tradición cumple 25 años este 2016 y es considerada de las más grandes del país y este 2016 se espera la asistencia de más de 150 mil personas:
+         Domingo de Ramos
+         Es un domingo antes de la Semana Santa en el que las iglesias son adornadas con motivos en color rojo los cuales sirven para representan la pasión de Cristo; además se realiza una misa en la que los feligreses llevan a bendecir palmas verdes y ramas de olivo, elaboradas por indígenas poblanos, mismas que según la tradición se pondrán en las puertas de cada casa para proteger a los que ahí viven, este día finaliza con una precesión dentro del templo y forma parte de la misa.  </h2>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/foto de cholula.jpg',1)"><img src="imagenes/images.jpg" width="294" height="171" id="Image23"></a></h2>
+       <h2>
+         Jueves Santo
+         En este día se realiza la visita a las siete casas, que consiste en un recorrido por las diferentes iglesias las cuales permanecen abiertas durante todo el día para que los visitantes puedan pasar, ver las imágenes y figuras litúrgicas. A las afueras de algunos templos se pueden ver puestos de comida para que las familias degusten algunos antojitos tradicionales de Puebla.</h2>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/foto22.jpg',1)"><img src="imagenes/images.jpg" width="294" height="171" id="Image21"></a></h2>
+       <h2> En este día en que se conmemora la última Cena en que Cristo instituyó la Eucaristía, el día del Lavatorio de los pies
+         
+         Viernes Santo
+       También es conocido como el Día del Calvario, recuerda el camino que siguió Jesús cuando cargó la pesada cruz hasta llegar al Monte donde fue crucificado. Durante esta jornada, iglesias católicas realizan el Vía Crucis en la que se personifican catorce pasajes o estaciones de las diferentes etapas de la pasión de Jesús y en las cuales participan miles de feligreses apoyando a esta realización, y demás personas acompañan durante el recorrido que dura aproximadamente cuatro horas.</h2>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/foto.jpg',1)"><img src="imagenes/images.jpg" width="294" height="171" id="Image22"></a></h2>
+       <h2> Sábado de Gloria
+       Se realiza la quema de los “Judas” imágenes de demonios o de personas supuestas traidoras; se acostumbra ir a balnearios entre los más visitados se encuentran agua azul, acocota, aqua paraíso, puerto escondido ente los conocidos, o bañarte con cubetas de agua, esto se acostumbrara anteriormente en los pueblos o juntas auxiliares de la ciudad, lo hacían porque representaba la frescura que sentían al ser quemados.</h2>
+       <h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/fotoooo.jpg',1)"><img src="imagenes/images.jpg" width="294" height="171" id="Image20"></a></h2>
+       <h2> Domingo de Resurrección
+         Domingo de Pascua, se realiza una misa y esta tiene dos momentos importantes que es la procesión y la lectura con el fin de la protección y de la ayuda, según los creyentes, el día que se recuerda la resurrección de Jesucristo y su acceso a los cielos, se celebra en algunos lugares entregando huevos de chocolate decorados, como estos: </h2>
+   <div>
+   </div>
+   </div>
+    <div data-role="collapsible" data-content-theme="false">
+          <h1>Toca para ver fotografia</h1>
+            <div>
+            <p>Foto Representativa del semana santa en cholula Estos huevos son echos para representar el festejo de la resurreccion de Jesus el Domingo de Resurreccion</p>
+            <br>
+            <center><img src="imagenes/cholulaaa.jpg"></center>
+            </div>
+            </div>
+    
+</div>  
+<div data-role="footer" data-theme="a">
+      <h4>Aplicacion Dos, Semana Santa, Juan Pablo Marin Frias</h4>
+    </div>   
+</div>
+
+</div>  
+                                               
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Celebracion en Iztapalapa</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <h2>CIUDAD DE MÉXICO (EFE) — El Gobierno del Distrito Federal declaró este martes a la celebración de Semana Santa de Iztapalapa, una de las más famosas del país, como Patrimonio Cultural Intangible de la Ciudad de México.
+
+El reconocimiento permitirá elevar ante la Organización de las Naciones Unidas (ONU) una propuesta formal para que la representación de la pasión de Cristo sea declarada Patrimonio Intangible Cultural de la Humanidad por la Unesco.</h2>
+       <h2><img src="imagenes/ixta.jpg" width="275" height="183"></h2>
+       <h2> “La declaración tiene un significado muy profundo para la ciudad, para su futuro, para su historia y es el reconocimiento de una de las tradiciones populares más poderosas de la ciudad", dijo el jefe del gobierno del Distrito Federal, Marcelo Ebrard.
+         
+         Los habitantes de Iztapalaba, una de las 16 delegaciones de la Ciudad de México, representan la pasión de Cristo desde hace 169 años.
+         
+         La escenificación de la Semana Santa surgió a raíz de una epidemia de cólera que afectó a la zona en 1843, habitada entonces por unas 20,000 personas, en su mayoría indígenas, de acuerdo con el cronista de Iztapalapa, Jorge de León.
+         
+         Los habitantes de la zona hicieron la promesa de emprender una procesión al Cerro de la Estrella si la peste acababa.
+         
+         Cuando la epidemia cesó, los vecinos del lugar hicieron una peregrinación con imágenes de vírgenes y santos, y dos años después se celebró la primera escenificación teatral de La pasión de Jesucristo.</h2>
+       <h2><img src="imagenes/ixta1.jpg" width="273" height="185"></h2>
+       <h2> La declaración de la representación de la Semana Santa de Iztapalapa como Patrimonio Cultural Intangible se suma a las de los Juegos de Pelota de origen prehispánico, el Barrio de San Ángel y la Orquesta Típica de la Ciudad de México.</h2>
+       <p><img src="imagenes/ixta2.jpg" width="259" height="195"></p>
+    </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+      <h4>Aplicacion Dos, Semana Santa, Juan Pablo Marin Frias</h4>
+    </div>
+   </div>
+  </div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Celebracion en el Vaticano</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <h2>El Vaticano comenzó este miércoles con los preparativos para celebrar la primera Semana Santa que encabezará el papa Francisco y que comenzará en cuatro días con el domingo de ramos. 
+
+La Plaza San Pedro amaneció hoy llena de operarios que, en un camión acoplado, trasladaron árboles de olivos, que serán colocados -junto a otros florales- en el centro de la histórica plaza.</h2>
+       <p><img src="imagenes/semana vati.jpg" width="264" height="191"></p>
+       <h2> El papa argentino presidirá el domingo 24 a las 9.30 (hora local, 5.30 hora argentina) la tradicional celebración del domingo de ramos, con la que se inicia la Semana Santa, el tiempo litúrgico más importante para los católicos. 
+         
+         Ese día se conmemora cuando Jesús entró triunfalmente en Jerusalén, aclamado como un rey por la gente con ramas y palmas de olivos que cortó de los árboles que se encontraban al lado del camino. 
+         
+         Tradicionalmente, el Papa comparte la celebración de ese domingo con los jóvenes, porque fueron justamente los chicos hebreos los que lo recibieron con mayor entusiasmo. 
+         
+         En el domingo de ramos de 1985, Juan Pablo II dedicó una carta apostólica a los jóvenes y ese mismo año instituyó las Jornadas Mundiales de la Juventud (JMJ), que se realizaron en Roma por primera vez al año siguiente, con la participación de chicos de todo el mundo.</h2>
+       <p><img src="imagenes/vati2.jpg" width="283" height="178"></p>
+       <h2> La II JMJ tuvo lugar en 1987 en el marco de la recordada visita que el papa polaco hizo a la Argentina, y desde entonces se realiza en distintos países (Francia, Canadá, Alemania, Australia, España fueron las últimas sedes). 
+         
+         Este año será el turno será de Brasil, donde la jornadas que convocan multitudes de jóvenes de todo el mundo se congregarán en  Río de Janeiro del 23 al 28 de julio, y se espera que el papa Francisco participe de ellas, convirtiéndose en su primer viaje internacional como pontífice.</h2>
+       <p><img src="imagenes/vati1.jpg" width="283" height="160"></p>
+    </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+      <h4>Aplicacion Dos, Semana Santa, Juan Pablo Marin Frias</h4>
+    </div>
+   </div>
+   </div>
+   </div>
+ <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Celebracion en Jesuralem</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <h2>Si hay un lugar en el mundo en que la mayoría de las personas coinciden en llamar santo, ese es Jerusalén.
+Sucede que las tres principales religiones monoteístas (judaísmo, cristianismo e islam) consideran la consideran una tierra sagrada.</h2>
+       <p><img src="imagenes/jerusalen.jpg" width="275" height="183"></p>
+       <h2> De hecho, su mismo nombre significa "Ciudad de Paz" en hebreo o "La Santa" en árabe.
+         Por eso no es de extrañarse que la capital de Israel -que fue declarada Patrimonio de la Humanidad por la UNESCO en 1981- reviva cada año en la Semana Santa.
+         Miles de turistas -principalmente cristianos que recuerdan la Pasión de Cristo- llegan a la ciudad para celebrar los días que transcurren entre el Domingo de Ramos (que recuerda la entrada triunfal de Jesús en Jerusalén) y Pascua (la resurrección del Señor, luego de su muerte en la cruz).
+         Así, toda la semana se convierte en una celebración litúrgica, donde religión y turismo se entrecruzan de una manera excepcional.
+         Domingo de Ramos
+         Como no podía ser de otro modo, el Monte de los Olivos -ubicado en el valle de Kidrón, al este de Jerusalén- reúne a peregrinos de los cinco continentes durante el Domingo de Ramos.
+         udad a través de las murallas por la Puerta de San Esteban.
+         Jueves y Viernes Santos
+         Los momentos más emotivos y llamativos se dan el Jueves Santo, día en que los cristianos recuerdan la Última Cena de Cristo, en la que instauró el sacramento de la Eucaristía y tras la cual fue traicionado por Judas.
+       Ese día se celebra una misa en el Santo Sepulcro, una iglesia que comparten los católicos, ortodoxos y armenios. Allí se realiza el lavatorio de pies, tal y como hizo Jesús con sus apóstoles.</h2>
+       <h2><img src="imagenes/jerus.jpg" width="275" height="183"></h2>
+       <h2> "Más abajo, en el Cenáculo, está el sitio donde Jesús celebró su Última Cena, un lugar santo que está siendo motivo de disputa entre el Vaticano, que lo reclama, y el Estado de Israel, y que sólo se abre dos veces en el año para los católicos: en Jueves Santo y en Pentecostés", explicó Javier Gómez, para LocuraViajes.com.
+         Desde allí se emprende la marcha hacia la Basílica de la Agonía, donde en la tarde del Jueves Santo se vuelve a celebrar otra misa, pues junto a ella está el Huerto de Getsemaní donde Jesús hizo sus últimas oraciones antes de ser apresado acusado por el beso de Judas.
+         El Viernes Santo por la mañana todos los grupos que se han dado cita en Israel hacen una peregrinación en Vía Crucis por las callejas empedradas de la capital, siguiendo el camino que lleva hasta el monte Gólgota (Calavera), y haciendo las estaciones penitenciales que recuerdan los distintos momentos del camino a la cruz, incluyendo las caídas.
+         "Las sensaciones a estas alturas de la peregrinación se han vuelto contradictorias, pues esas mismas calles poco antes se han visto repletas de tiendas de recuerdos y souvenirs religiosos, de turistas expectantes, de calor humano. Pero esas sensaciones que en cualquier otro momento podrían considerarse ‘ociosas', ahora son algo más profundo", opinó Gómez.
+         Y añadió que "parece que el misticismo, o que la energía que fluye de las paredes y de las piedras de aquellas laberínticas calles te envuelven, desplazándote a otra época".
+         "Tus pasos avanzan, pensando en lo ocurrido sobre aquellas mismas piedras hace cientos de años, hasta que llegas a ese destino deseado", resumió.
+         Pascuas
+         Tal como su nombre lo indica, el Sábado de Vigila es un momento de espera antes de lo que es el corazón de las creencias cristianas: la resurrección del Señor.
+         La Pascua es un momento de celebración, y en Jerusalén ese domingo se vive con gran alegría y fe. En esa fecha se realiza una nueva peregrinación hasta el Santo Sepulcro, donde se vuelve a celebrar una misa pontifical y otra procesión.
+         La última celebración litúrgica se realiza a 11 kilómetros de Jerusalén, en Al Qaibe donde se supone que Jesús Resucitado se apareció por primera vez a sus discípulos.
+       </h2>
+       <p><img src="imagenes/jeru.jpg" width="317" height="159"></p>
+    </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+      <h4>Aplicacion Dos, Semana Santa, Juan Pablo Marin Frias</h4>
+    </div>
+   </div>
+   </div>
+   </div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Celebracion en Fiipinas</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <h2>Continuando con la celebración, el “Mesías” de turno, espera en su casa la llegada de los centuriones romanos, quienes lo llevarán ante Poncio Pilatos. Ya condenado, tiene que cargar una cruz muy pesada y llevar una corona de espinas de verdad por un camino de dos kilómetros. Siguiendo al “Mesías”, se encuentran los penitentes, los cuales están encapuchados y se van azotando las espaldas desnudas al mismo tiempo.
+
+¿Puedes creer cuánto realismo le ponen a la celebración? Si pensabas que aún no es suficiente, entonces no dejes de leer lo que viene. Una vez que están en su Gólgota particular, los hombres se crucifican. No es una crucifixión falsa, sino que se incrustan clavos de verdad sobre las manos y pies. Esta costumbre es muy antigua, desde hace ya más de medio siglo, sin embargo es sólo desde 1992 que se cuenta con crucificados reales.</h2>
+       <p><img src="imagenes/filipinas.jpg" width="275" height="183"></p>
+       <h2>No te sorprendas al saber que las calles que conducen al Gólgota de Filipinas se encuentran bañadas de sangre de los cientos de flagelantes. El Gólgota es un pequeño montículo justo en el medio de un arrozal en San Pedro de Cutud, ubicado a 70 kilómetros al norte de Manila. El Vaticano ha mostrado una posición en contra de estas representaciones, sin embargo el Gobierno no piensa realizar cambio alguno debido a que resulta ser un atractivo turístico muy importante. ¡Cientos de personas han sido flageladas y crucificadas desde el año 1976!
+         
+         
+         ¿Sabes quién es Rubén Enaje? Los habitantes de las Filipinas sí lo saben, pues es un hombre que decía “Perdóname, Señor”, mientras se daba golpes de martillo. Rubén fue la primera persona en subir a la cruz, como cada año desde hace 19 y suele vestir un paño atado con una cuerda de burdeos y una corona hecha de ramas.
+         
+         ¿Por qué Rubén Enaje, pintor de brocha gorda de 43 años, hace esto? Según cuenta, se cayó de un andamio de un tercer piso en el año 1984 y milagrosamente resultó ileso. Es por eso que le prometió a Dios que se iba a crucificar todos los viernes de Semana Santa, por un período de 20 años como manera de agradecimiento. Una vez clavado en el madero, Enaje reza por su familia, por el país y por todos los presentes.
+         
+         ¡La celebración no termina ahí! Luego de que el “Cristo” pasa diez minutos ahí, baja de su calvario y se dirige hacia las otras crucifixiones, las cuales se hacían de tres en tres con un intervalo de unos quince minutos. Así mismo, los clavos utilizados medían once centímetros, unos cuantos centímetros menos que los que se utilizaron para crucificar a Jesucristo.
+         
+       ¡Vaya rito! Las famosas crucifixiones en las Filipinas se remontan a las autoflagelaciones, las cuales fueron traídas por misioneros españoles en el siglo XVI. Al parecer los filipinos no tuvieron ningún problema en adoptar ese rito y causó gran sensación entre las personas.</h2>
+       <h2><img src="imagenes/filipinas2.jpg" width="297" height="170"></h2>
+       <h2> Fue tan extrema la acogida, que en el siglo XVIII se tuvo que hacer una ley para que los nativos no abusaran de este autocastigo.
+         La ley estaba puesta, pero no afectaba a las autoflagelaciones que se daban durante la Semana Santa. Los penitentes suelen utilizar capuchas de terciopelo en sus cabezas (algunos coronados con una anilla de espinas) con la finalidad de conservar su anonimato.
+         
+         Continuando con las crucifixiones, es curioso saber que la primera se llevó a cabo por el curandero Arsenio Añoza, en el año 1961. ¿Por qué lo hizo? Pues simplemente porque pensaba que la muerte a través de la crucifixión era indispensable para poder adquirir un poder sagrado.
+         
+         La gran pregunta es, ¿Qué opina la iglesia de las Filipinas al respecto? Afirman que las flagelaciones se dan en los sectores sociales menos educados y más pobres del país. Los sectores más educados y con mayores recursos económicos, no participan de esta celebración; pueden contemplar el ritual, más no son partícipes de este. A pesar de que la iglesia de las Filipinas no recomendar la participación en este tipo de actos en Semana Santa de San Pedro de Cutud, tampoco se opone a que lo hagan, bajo el argumento de que si lo hicieran, estarían alejando a esas personas de su fe.
+         
+         Si visitas San Pedro de Cutud durante Semana Santa, podrás ver miles de cámaras de todo el mundo grabando el gran acontecimiento. Las personas presentes, pueden corroborar la realidad de lo que están viendo, sin trampas ni engaños. Podrás ver en vivo y en directo la crudeza de un acontecimiento tan impactante.
+       </h2>
+       <p><img src="imagenes/filipinas 3.jpg" width="275" height="183"></p>
+    </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+      <h4>Aplicacion Dos, Semana Santa, Juan Pablo Marin Frias</h4>
+    </div>
+   </div>
+   </div>
+</div> 
+</body>
+</html>
